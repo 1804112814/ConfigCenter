@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: consumer-80
+  cloud:
+    zookeeper:
+      connect-string: 47.96.112.159:2181
+feign:
+  hystrix:
+    enabled: true
+
