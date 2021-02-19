@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbbffdae-075c-452b-9f9d-19df2139cb67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Consumer-Zookeeper-80/target/classes/com/comsumer/Consumer80.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer-Zookeeper-80/target/classes/com/comsumer/config/SpringConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer-Zookeeper-80/target/classes/com/comsumer/controller/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer-Zookeeper-80/target/classes/com/comsumer/feigns/PaymentFallBack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer-Zookeeper-80/target/classes/com/comsumer/feigns/PaymentFeign.class" afterDir="false" />
-    </list>
+    <list default="true" id="dbbffdae-075c-452b-9f9d-19df2139cb67" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -132,7 +126,7 @@
       <updated>1613486597412</updated>
       <workItem from="1613486601290" duration="2043000" />
       <workItem from="1613638735625" duration="14460000" />
-      <workItem from="1613740911031" duration="1903000" />
+      <workItem from="1613740911031" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交项目,基于Zookeeper的payment和consumer的API,改掉Author字段">
       <created>1613742287654</created>
