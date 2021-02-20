@@ -1,5 +1,12 @@
-version: 1.0
+server:
+  port: 8004
+
 spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      connect-string: 47.96.112.159:2181
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     #    driver-class-name: org.gjt.mm.mysql.Driver
@@ -7,3 +14,8 @@ spring:
     url: jdbc:mysql://47.96.112.159:3306/cloud?useUnicode=true&characterEncoding=utf-8&useSSL=false
     username: old
     password: 123
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.dkf.springcloud.entities  # 所有Entity 别名类所在包
+
